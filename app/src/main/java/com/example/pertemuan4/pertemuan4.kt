@@ -1,6 +1,7 @@
 package com.example.pertemuan4
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -24,6 +25,7 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+
 
 @Composable
 fun ActivitasPertama(modifier: Modifier) {
@@ -73,6 +75,14 @@ fun ActivitasPertama(modifier: Modifier) {
                     )
                 }
             }
+        }
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+        ){
+            Text(
+                stringResource("Copyright,")
+            )
         }
     }
 }
