@@ -81,7 +81,10 @@ fun ActivitasPertama(modifier: Modifier) {
                 .fillMaxSize()
         ){
             Text(
-                stringResource("Copyright,")
+                stringResource(R.string.copy),
+                modifier = Modifier
+                    .align(Alignment.BottomCenter)
+                    .padding(bottom = 50.dp)
             )
         }
     }
