@@ -45,6 +45,15 @@ fun ActivitasPertama(modifier: Modifier) {
             fontSize = 22.sp
         )
         Spacer(modifier = Modifier.height(25.dp))
+
+        Box(
+            modifier = Modifier
+                .fillMaxWidth(0.8f)
+                .height(2.dp)
+                .background(Color.LightGray)
+        )
+
+        Spacer(modifier = Modifier.height(20.dp))
         Card(modifier
             .fillMaxWidth(1f)
             .padding(12.dp),
